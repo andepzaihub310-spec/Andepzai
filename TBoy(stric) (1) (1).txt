@@ -2398,13 +2398,13 @@ Tabs.Info:AddParagraph({
     Title="All Clients PC Supported",
     Content=""
 })
-_G.FastAttackVxeze_Mode="Super Fast Attack"
+_G.FastAttackVxeze_Mode="Xeter Super Fast Attack"
 spawn(function()
     while wait() do
         if _G.FastAttackVxeze_Mode then
             pcall(function()
-                if _G.FastAttackVxeze_Mode=="Super Fast Attack" then
-                    _G.Fast_Delay=0.0000000000000000000000000000000000000000000000000000000000000000000000001 
+                if _G.FastAttackVxeze_Mode=="Xeter Super Fast Attack" then
+                    _G.Fast_Delay=0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 
                 end
             end)
         end
