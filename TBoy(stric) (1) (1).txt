@@ -2320,7 +2320,7 @@ Button.Parent = ScreenGui
 Button.Size = UDim2.new(0, 50, 0, 50)
 Button.Position = UDim2.new(0,0,0)
 Button.BackgroundTransparency = 1
-Button.Image = "rbxassetid://98564585436763"
+Button.Image = "rbxassetid://98216492508597"
 local UICorner = Instance.new("UICorner")
 
 UICorner.CornerRadius = UDim.new(1, 0)
@@ -4694,7 +4694,7 @@ if Sea3 then
         end
         for _, v in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v:IsA("MeshPart") then
-                if v.MeshId=="rbxassetid://98564585436763" then
+                if v.MeshId=="rbxassetid://83190276951914" then
                     return v
                 end
             end
